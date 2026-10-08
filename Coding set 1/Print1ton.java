@@ -1,0 +1,16 @@
+import java.util.Scanner;
+public class Print1ton
+{
+    public static void main(String[] args)
+    {
+        int a;
+        System.out.print("Enter the value of a:");
+        Scanner sc=new Scanner(System.in);
+        a=sc.nextInt();
+        
+        for(int i=1;i<=a;i++)
+        {
+            System.out.println(i);
+        }
+    }
+}
